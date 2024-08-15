@@ -11,6 +11,8 @@ const DefaultOats_iLoadersConfig = require("../oats~i/main/webpack.config");
 //@ts-expect-error
 module.exports = merge(DefaultOats_iConfig, DefaultOats_iLoadersConfig, {
 
+    mode: "development",
+    devtool: "eval-source-map",
     output: {
 
         //Where we'll output public assets
@@ -28,8 +30,8 @@ module.exports = merge(DefaultOats_iConfig, DefaultOats_iLoadersConfig, {
     plugins: [
         new HtmlWebpackPlugin({
 
-            template: "./src/server/index/index.sv.hbs",
-            filename: "../views/index.hbs",
+            template: "./src/server/home/home.sv.hbs",
+            filename: "../views/home.hbs",
             chunks: ["index"],
             minify: false
         })
