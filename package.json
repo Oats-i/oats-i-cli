@@ -4,8 +4,7 @@
   "description": "Project generator for Oats~i",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node ./src/index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
     "generate-oats~i": "./src/index.js"

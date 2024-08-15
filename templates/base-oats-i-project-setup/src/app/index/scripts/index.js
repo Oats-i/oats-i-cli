@@ -3,6 +3,7 @@ import AppStateManager from "oats-i/base-history/app_state_manager";
 import appRoot from "oats-i/bin/app_root"
 import AppRoutingInfo from "./routing-info/app_routing_info";
 import MainRouter from "oats-i/router/main_router";
+import AppMainNavInfo from "./routing-info/app_main_nav_info";
 
 function initApp(){
 
@@ -14,7 +15,7 @@ function initApp(){
             canAccess: true,
             fallbackRoute: "/"
         }
-    }), { template: null, mainNavInfos: [] }, "");
+    }), { template: null, mainNavInfos: AppMainNavInfo }, "");
 }
 
 initApp();

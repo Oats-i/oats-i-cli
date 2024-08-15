@@ -29,9 +29,11 @@ const DevServerMiddlewareConfig = (middlewares, devServer) => {
 
     //My middlewares
     //Capture all
-    app.use("/*", (req, res, next) => {
+    app.get("/*", (req, res, next) => {
 
-        res.render("index.hbs", {});
+        res.render("home", {
+            layout: "home"
+        });
     });
 
     return middlewares;
