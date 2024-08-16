@@ -7,6 +7,11 @@ const AppMainNavInfo = MainNavigationInfoBuilder.buildMainNavigationInfo([
         selector: "home-link",
         defaultRoute: "/",
         baseActiveRoute: "/",
+    },
+    {
+        selector: "about-link",
+        defaultRoute: "/about",
+        baseActiveRoute: "/about",
     }
 ]);
 

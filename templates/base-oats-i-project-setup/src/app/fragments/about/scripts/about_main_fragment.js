@@ -1,23 +1,24 @@
 //@ts-check
 //import styles
-import "../styles/home.css";
+import "../styles/about_responsive.css";
 
 import AppFragmentBuilder from "oats-i/fragments/builder/AppFragmentBuilder";
 import AppMainFragment from "oats-i/fragments/AppMainFragment"
 
-class HomeMainFragment extends AppMainFragment{
+class AboutMainFragment extends AppMainFragment{
 
     async initializeView(cb){
 
         //@ts-expect-error cannot find module (for view)
-        const uiTemplate = require("../views/home_fragment.hbs")();
+        const uiTemplate = require("../views/about_fragment.hbs")();
         this.onViewInitSuccess(uiTemplate, cb);
     }
 }
 
-const homeMainFragmentBuilder = new AppFragmentBuilder(HomeMainFragment, {
+const aboutMainFragmentBuilder = new AppFragmentBuilder(AboutMainFragment, {
 
     localRoutingInfos: null,
-    viewID: "home-main-fragment",
+    viewID: "about-main-fragment",
 });
-export default homeMainFragmentBuilder;
+
+export default aboutMainFragmentBuilder;

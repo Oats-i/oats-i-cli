@@ -5,6 +5,9 @@ import AppRoutingInfo from "./routing-info/app_routing_info";
 import MainRouter from "oats-i/router/main_router";
 import AppMainNavInfo from "./routing-info/app_main_nav_info";
 
+//import styles
+import "../styles/index_responsive.css";
+
 function initApp(){
 
     const appStateManager = new AppStateManager(AppRoutingInfo);
