@@ -1,6 +1,6 @@
 {
   "name": "oats-i-cli",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Project generator for Oats~i",
   "main": "./src/index.js",
   "scripts": {
