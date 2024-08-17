@@ -20,6 +20,12 @@ npx oats-i-cli
 
 Follow the prompts
 
+Run the app
+
+```
+npm run dev
+```
+
 ## About Oats~i
 
 Oats~i is an open web framework for building web apps. 
