@@ -12,7 +12,11 @@ Open the terminal.
 
 Navigate to the directory you want to generate an Oats~i project.
 
-Run npx oats-i-cli
+Run 
+
+```
+npx oats-i-cli
+```
 
 Follow the prompts
 
