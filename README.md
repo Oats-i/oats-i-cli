@@ -1,4 +1,4 @@
-# Oats~i cli    [![npm](https://img.shields.io/badge/npm-v_1.0.3-blue)](https://www.npmjs.com/package/oats-i-cli)    [![license](https://img.shields.io/badge/license-MPL_2.0-green)](https://github.com/Oats-i/Oats-i-cli?tab=MPL-2.0-1-ov-file)
+# Oats~i cli    [![npm](https://img.shields.io/badge/npm-v_1.0.4-blue)](https://www.npmjs.com/package/oats-i-cli)    [![license](https://img.shields.io/badge/license-MPL_2.0-green)](https://github.com/Oats-i/Oats-i-cli?tab=MPL-2.0-1-ov-file)
 
 Project generator for Oats~i.
 
@@ -39,4 +39,4 @@ https://www.linkedin.com/in/ian-omondi-c/
 
 ## Support
 
-You can support the project through a donation in [Patreon](https://www.patreon.com/IanOmondi).
+You can support the project through a donation in [Patreon](https://www.patreon.com/IanOmondi) or [buy me a coffee](https://buymeacoffee.com/oats_i).
